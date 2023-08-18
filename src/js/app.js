@@ -63,10 +63,10 @@ window.onload = function() {
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
-    twitter: null,
-    github: null,
-    linkedin: null,
-    instagram: null,
+    twitter: "https://twitter.com",
+    github: "https://github.com/4GeeksAcademy",
+    linkedin: "https://www.linkedin.com",
+    instagram: "https://www.instagram.com",
     name: "Vanesa",
     lastname: "Juarez",
     role: "Developer",
