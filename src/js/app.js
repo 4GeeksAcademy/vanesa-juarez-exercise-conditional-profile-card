@@ -40,10 +40,10 @@ function render(variables = {}) {
           <h2>${variables.city}, ${variables.country}</h2>
       
           <ul class=${variables.socialMediaPosition}>
-            <li><a href=${variables.twitter} target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href=${variables.github}  target="_blank"><i class="fab fa-github"></i></a></li>
-            <li><a href=${variables.linkedin}  target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href=${variables.instagram}  target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/${variables.twitter}"  target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://github.com/${variables.github}"  target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/${variables.linkedin}"  target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/${variables.instagram}"  target="_blank"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
@@ -64,7 +64,7 @@ window.onload = function() {
     socialMediaPosition: "position-left",
     // social media usernames
     twitter: "https://twitter.com",
-    github: "https://github.com/4GeeksAcademy",
+    github: "https://github.com/",
     linkedin: "https://www.linkedin.com",
     instagram: "https://www.instagram.com",
     name: "Vanesa",
